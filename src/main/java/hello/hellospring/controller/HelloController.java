@@ -11,6 +11,7 @@ public class HelloController {
     public String hello(Model model) {
         model.addAttribute("data", "hello!!");
         //data 변수에 "hello!!" 를 담아서 hello 로 반환한다
+
         return "hello";
     }
 }
